@@ -121,7 +121,8 @@ header.topo.solido{background:rgba(58,28,12,.94);backdrop-filter:blur(8px);box-s
 @keyframes zoom{to{transform:scale(1)}}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,8,2,.55) 0%,rgba(20,8,2,.1) 35%,rgba(30,12,3,.75) 100%)}
 .hero .wrap{position:relative;z-index:2}
-.hero .eyebrow{color:var(--ouro)}
+.hero .eyebrow{color:#fff;display:inline-flex;align-items:center;gap:.8em;text-shadow:0 2px 14px rgba(0,0,0,.65)}
+.hero .eyebrow::before{content:"";width:36px;height:2px;background:var(--ouro);box-shadow:0 1px 6px rgba(0,0,0,.4)}
 .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,6.6vw,5.4rem);line-height:1.02;margin:.25em 0 .3em;max-width:14ch;text-shadow:0 4px 30px rgba(0,0,0,.35)}
 .hero h1 em{font-style:italic;color:var(--ouro)}
 .hero p{font-size:clamp(1rem,1.6vw,1.2rem);max-width:52ch;opacity:.95}
