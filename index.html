@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiosque Tia Lúcia | Restaurante pé na areia em Camboinhas, Niterói</title>
+<meta name="description" content="Quiosque Tia Lúcia, desde 1982 na Praia de Camboinhas, Niterói. Peixes, frutos do mar, petiscos e drinks com vista para o pôr do sol. Café da manhã aos fins de semana, casamentos e aniversários à beira-mar.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/">
+<meta name="theme-color" content="#3a1c0c">
+
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Quiosque Tia Lúcia">
+<meta property="og:title" content="Quiosque Tia Lúcia | Onde o Sol e a Lua se Encontram">
+<meta property="og:description" content="Pé na areia em Camboinhas desde 1982: frutos do mar, petiscos, drinks, café da manhã e eventos à beira-mar.">
+<meta property="og:url" content="https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/">
+<meta property="og:image" content="https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/img/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero.jpg" fetchpriority="high">
+<link rel="icon" href="img/logo.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/#org",
+      "name": "Quiosque Tia Lúcia",
+      "url": "https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/",
+      "logo": "https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/img/logo.jpg",
+      "slogan": "Onde o Sol e a Lua se Encontram",
+      "foundingDate": "1982",
+      "sameAs": ["https://www.instagram.com/quiosque_tialucia/"]
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/#restaurante",
+      "name": "Quiosque Tia Lúcia",
+      "parentOrganization": {"@id": "https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/#org"},
+      "image": "https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/img/hero.jpg",
+      "telephone": "+55-21-99537-8586",
+      "servesCuisine": ["Frutos do mar", "Peixes", "Petiscos", "Brasileira"],
+      "priceRange": "$$",
+      "acceptsReservations": true,
+      "hasMenu": "https://mcoutinho2512.github.io/quiosque-tialucia-prototipo/#cardapio",
+      "paymentAccepted": "Dinheiro, cartão de crédito, cartão de débito",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Beira-Mar, 13 – Praia de Camboinhas",
+        "addressLocality": "Niterói",
+        "addressRegion": "RJ",
+        "postalCode": "24320-330",
+        "addressCountry": "BR"
+      },
+      "geo": {"@type": "GeoCoordinates", "latitude": -22.9636485, "longitude": -43.0507903},
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00", "closes": "19:00"
+      }],
+      "sameAs": ["https://www.instagram.com/quiosque_tialucia/"]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --cafe:#3a1c0c; --cafe-2:#5c2a0e; --brasa:#b5470f; --sol:#e8892b; --ouro:#f2b84b;
+  --areia:#f7efe2; --areia-2:#efe2cc; --mar:#1f6f8b; --tinta:#2a1a10; --cinza:#6d5d50;
+  --serif:'Playfair Display', Georgia, serif; --sans:'Montserrat', system-ui, sans-serif;
+  --raio:18px; --sombra:0 18px 40px -18px rgba(58,28,12,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:var(--sans);color:var(--tinta);background:var(--areia);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1180px,92vw);margin-inline:auto}
+.eyebrow{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--brasa)}
+h2{font-family:var(--serif);font-weight:600;font-size:clamp(2rem,4.2vw,3.1rem);line-height:1.12;color:var(--cafe);margin:.35em 0 .5em}
+h3{font-family:var(--serif);font-weight:600;color:var(--cafe)}
+.lead{font-size:1.08rem;color:var(--cinza);max-width:62ch}
+section{padding:clamp(70px,10vw,120px) 0}
+.btn{display:inline-flex;align-items:center;gap:.6em;padding:.95em 1.6em;border-radius:999px;font-weight:600;font-size:.95rem;text-decoration:none;transition:transform .2s,box-shadow .2s,background .2s;cursor:pointer;border:0}
+.btn:hover{transform:translateY(-2px)}
+.btn-zap{background:#1fa855;color:#fff;box-shadow:0 10px 24px -10px rgba(31,168,85,.7)}
+.btn-zap:hover{background:#178a45}
+.btn-claro{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.5);backdrop-filter:blur(6px)}
+.btn-escuro{background:var(--cafe);color:#fff}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* faixa protótipo */
+.proto{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#111;color:#f2d9a8;font-size:.78rem;text-align:center;padding:.45em 1em;letter-spacing:.02em}
+.proto b{color:#fff}
+
+/* topo */
+header.topo{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,box-shadow .3s}
+header.topo.solido{background:rgba(58,28,12,.94);backdrop-filter:blur(8px);box-shadow:0 6px 20px -12px #000}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.marca{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:#fff}
+.marca img{width:48px;height:48px;border-radius:50%;border:2px solid var(--ouro);object-fit:cover;background:var(--cafe)}
+.marca span{font-family:var(--serif);font-size:1.25rem;font-weight:600;line-height:1.1}
+.marca small{display:block;font-family:var(--sans);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ouro);font-weight:600}
+.menu{display:flex;gap:1.6rem;list-style:none;align-items:center}
+.menu a{color:#fff;text-decoration:none;font-size:.88rem;font-weight:500;opacity:.9}
+.menu a:hover{opacity:1;color:var(--ouro)}
+.menu .btn{padding:.6em 1.15em;font-size:.85rem}
+.burger{display:none;background:none;border:0;color:#fff;width:44px;height:44px;cursor:pointer}
+.burger svg{width:28px;height:28px}
+
+/* hero */
+.hero{position:relative;min-height:100svh;display:flex;align-items:flex-end;color:#fff;padding:0 0 clamp(80px,12vh,140px);overflow:hidden;background:var(--cafe)}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 60%;transform:scale(1.04);animation:zoom 18s ease-out forwards}
+@keyframes zoom{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,8,2,.55) 0%,rgba(20,8,2,.1) 35%,rgba(30,12,3,.75) 100%)}
+.hero .wrap{position:relative;z-index:2}
+.hero .eyebrow{color:var(--ouro)}
+.hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,6.6vw,5.4rem);line-height:1.02;margin:.25em 0 .3em;max-width:14ch;text-shadow:0 4px 30px rgba(0,0,0,.35)}
+.hero h1 em{font-style:italic;color:var(--ouro)}
+.hero p{font-size:clamp(1rem,1.6vw,1.2rem);max-width:52ch;opacity:.95}
+.hero .acoes{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.8rem}
+
+/* números */
+.numeros{background:var(--cafe);color:#fff;padding:0}
+.numeros .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+.numeros div.n{padding:2rem 1rem;text-align:center;border-left:1px solid rgba(255,255,255,.1)}
+.numeros div.n:first-child{border-left:0}
+.numeros strong{display:block;font-family:var(--serif);font-size:2.1rem;color:var(--ouro);font-weight:600;line-height:1.1}
+.numeros span{font-size:.82rem;opacity:.85}
+
+/* história */
+.historia .grid{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(30px,6vw,80px);align-items:center}
+.historia figure{position:relative}
+.historia figure img{border-radius:var(--raio);box-shadow:var(--sombra);aspect-ratio:4/5;object-fit:cover;width:100%}
+.historia figure .selo{position:absolute;right:-18px;bottom:28px;background:var(--sol);color:#fff;border-radius:50%;width:124px;height:124px;display:grid;place-content:center;text-align:center;font-family:var(--serif);box-shadow:var(--sombra)}
+.historia figure .selo b{font-size:2rem;line-height:1}
+.historia figure .selo small{font-family:var(--sans);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase}
+.linha{list-style:none;margin-top:2rem;border-left:2px solid var(--areia-2);padding-left:1.6rem}
+.linha li{position:relative;padding-bottom:1.4rem}
+.linha li::before{content:"";position:absolute;left:calc(-1.6rem - 7px);top:.4em;width:12px;height:12px;border-radius:50%;background:var(--sol);box-shadow:0 0 0 4px var(--areia)}
+.linha b{font-family:var(--serif);font-size:1.15rem;color:var(--cafe);display:block}
+.linha span{color:var(--cinza);font-size:.95rem}
+
+/* especialidades */
+.especialidades{background:#fff}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem;margin-top:2.4rem}
+.card{border-radius:var(--raio);overflow:hidden;background:var(--areia);box-shadow:0 1px 0 var(--areia-2);transition:transform .3s,box-shadow .3s}
+.card:hover{transform:translateY(-6px);box-shadow:var(--sombra)}
+.card img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.card div{padding:1.4rem 1.5rem 1.7rem}
+.card h3{font-size:1.4rem;margin-bottom:.35rem}
+.card p{color:var(--cinza);font-size:.95rem}
+
+/* café da manhã */
+.cafe{position:relative;color:#fff;background:var(--cafe-2);overflow:hidden}
+.cafe .grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,70px);align-items:center}
+.cafe h2{color:#fff}
+.cafe .eyebrow{color:var(--ouro)}
+.cafe p{opacity:.9}
+.cafe ul{list-style:none;margin:1.6rem 0 2rem;display:grid;gap:.7rem}
+.cafe li{display:flex;gap:.8rem;align-items:flex-start}
+.cafe li::before{content:"☀";color:var(--ouro);flex:none}
+.cafe .preco{display:inline-block;font-family:var(--serif);font-size:2.4rem;color:var(--ouro);line-height:1}
+.cafe .preco small{font-family:var(--sans);font-size:.85rem;color:#fff;opacity:.8}
+.cafe figure img{border-radius:var(--raio);aspect-ratio:4/5;object-fit:cover;width:100%;box-shadow:0 30px 60px -25px #000}
+.parceria{font-size:.82rem;opacity:.75;margin-top:1rem}
+
+/* eventos */
+.eventos .topo-sec{display:flex;justify-content:space-between;align-items:flex-end;gap:2rem;flex-wrap:wrap}
+.mosaico{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:12px;margin-top:2.4rem}
+.mosaico figure{position:relative;border-radius:14px;overflow:hidden}
+.mosaico img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.mosaico figure:hover img{transform:scale(1.06)}
+.mosaico figcaption{position:absolute;left:0;right:0;bottom:0;padding:1.6rem 1rem .8rem;color:#fff;font-weight:600;font-size:.9rem;background:linear-gradient(transparent,rgba(0,0,0,.7))}
+.mosaico .alto{grid-row:span 2}
+.mosaico .largo{grid-column:span 2}
+.tipos{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.6rem}
+.tipos span{background:#fff;border:1px solid var(--areia-2);padding:.45em 1em;border-radius:999px;font-size:.85rem;font-weight:500}
+
+/* espaço */
+.espaco{background:#fff}
+.espaco .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem;margin-top:2.4rem}
+.espaco .item img{border-radius:14px;aspect-ratio:1/1;object-fit:cover;width:100%;margin-bottom:1rem}
+.espaco .item h3{font-size:1.25rem}
+.espaco .item p{color:var(--cinza);font-size:.94rem}
+
+/* pôr do sol */
+.pordosol{position:relative;min-height:70vh;display:grid;place-items:center;text-align:center;color:#fff;overflow:hidden;padding:0}
+.pordosol img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pordosol::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(30,12,3,.25),rgba(30,12,3,.65))}
+.pordosol .wrap{position:relative;z-index:2;padding:6rem 0}
+.pordosol blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(1.9rem,4.6vw,3.6rem);line-height:1.15;max-width:18ch;margin:0 auto .6em}
+.pordosol p{opacity:.9}
+
+/* cardápio */
+.cardapio .barra{display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between;margin:2rem 0 1.2rem}
+.busca{position:relative;flex:1 1 280px;max-width:420px}
+.busca input{width:100%;padding:.9em 1em .9em 2.8em;border-radius:999px;border:1px solid var(--areia-2);background:#fff;font:inherit;font-size:.95rem;outline:none}
+.busca input:focus{border-color:var(--sol);box-shadow:0 0 0 4px rgba(232,137,43,.15)}
+.busca svg{position:absolute;left:1em;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--cinza)}
+.chips{display:flex;gap:.5rem;overflow-x:auto;padding-bottom:.4rem;scrollbar-width:thin;margin-bottom:1.6rem}
+.chip{flex:none;border:1px solid var(--areia-2);background:#fff;padding:.55em 1.1em;border-radius:999px;font:inherit;font-size:.85rem;font-weight:500;cursor:pointer;color:var(--tinta);white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--cafe);color:#fff;border-color:var(--cafe)}
+.cat{margin-bottom:2.4rem}
+.cat h3{font-size:1.6rem;display:flex;align-items:baseline;gap:.8rem;margin-bottom:.3rem}
+.cat h3 small{font-family:var(--sans);font-size:.78rem;color:var(--cinza);font-weight:500}
+.itens{display:grid;grid-template-columns:1fr 1fr;gap:0 3rem}
+.it{display:flex;gap:1rem;justify-content:space-between;align-items:baseline;padding:.85rem 0;border-bottom:1px dashed var(--areia-2)}
+.it b{font-weight:600;font-size:.98rem}
+.it small{display:block;color:var(--cinza);font-size:.82rem;line-height:1.4;margin-top:.15rem}
+.it .p{font-family:var(--serif);font-weight:600;color:var(--brasa);font-size:1.05rem;white-space:nowrap}
+.vazio{padding:2rem;text-align:center;color:var(--cinza);background:#fff;border-radius:14px}
+.notas{display:flex;flex-wrap:wrap;gap:.8rem 2rem;font-size:.85rem;color:var(--cinza);background:#fff;padding:1.2rem 1.5rem;border-radius:14px;margin-top:1rem}
+
+/* localização */
+.local{background:var(--cafe);color:#fff}
+.local h2{color:#fff}
+.local .eyebrow{color:var(--ouro)}
+.local .grid{display:grid;grid-template-columns:1fr 1.15fr;gap:clamp(30px,5vw,60px);align-items:stretch}
+.info{display:grid;gap:1.4rem;margin:1.6rem 0 2rem}
+.info div{display:flex;gap:1rem}
+.info svg{width:24px;height:24px;color:var(--ouro);flex:none;margin-top:.2rem}
+.info b{display:block;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ouro);font-weight:600}
+.info a{text-decoration:none}
+.info a:hover{text-decoration:underline}
+.mapa{border-radius:var(--raio);overflow:hidden;min-height:380px;background:var(--cafe-2)}
+.mapa iframe{width:100%;height:100%;min-height:380px;border:0;display:block;filter:saturate(.9)}
+
+/* cta final */
+.final{text-align:center;background:linear-gradient(135deg,var(--sol),var(--brasa));color:#fff}
+.final h2{color:#fff;margin-inline:auto;max-width:20ch}
+.final p{max-width:52ch;margin:0 auto 2rem;opacity:.95}
+.final .acoes{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
+
+footer{background:#1e0e05;color:rgba(255,255,255,.7);padding:3rem 0 4.5rem;font-size:.88rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:space-between;align-items:center}
+footer a{color:var(--ouro);text-decoration:none}
+footer .marca span{color:#fff}
+
+/* whatsapp flutuante */
+.zap{position:fixed;right:20px;bottom:48px;z-index:55}
+.zap>button{width:62px;height:62px;border-radius:50%;background:#1fa855;border:0;color:#fff;display:grid;place-items:center;cursor:pointer;box-shadow:0 12px 30px -8px rgba(0,0,0,.45);animation:pulso 2.6s infinite}
+.zap>button svg{width:32px;height:32px}
+@keyframes pulso{0%{box-shadow:0 0 0 0 rgba(31,168,85,.55)}70%{box-shadow:0 0 0 16px rgba(31,168,85,0)}100%{box-shadow:0 0 0 0 rgba(31,168,85,0)}}
+.zap .painel{position:absolute;right:0;bottom:76px;width:290px;background:#fff;border-radius:16px;box-shadow:0 20px 50px -15px rgba(0,0,0,.4);overflow:hidden;opacity:0;transform:translateY(10px) scale(.97);pointer-events:none;transition:.22s}
+.zap.aberto .painel{opacity:1;transform:none;pointer-events:auto}
+.zap .painel header{background:#075e54;color:#fff;padding:1rem 1.1rem;font-size:.9rem}
+.zap .painel header b{display:block;font-size:1rem}
+.zap .painel a{display:block;padding:.9rem 1.1rem;border-top:1px solid #eee;text-decoration:none;font-size:.92rem;color:var(--tinta)}
+.zap .painel a:hover{background:#f3faf5}
+.zap .painel a span{display:block;font-size:.78rem;color:var(--cinza)}
+
+/* revelar */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s,transform .8s}
+.rv.on{opacity:1;transform:none}
+
+@media (max-width:960px){
+  .menu{position:fixed;inset:76px 0 auto 0;flex-direction:column;background:rgba(58,28,12,.98);padding:1.5rem;gap:1.1rem;transform:translateY(-130%);transition:transform .3s}
+  .menu.aberto{transform:none}
+  .burger{display:block}
+  .historia .grid,.cafe .grid,.local .grid{grid-template-columns:1fr}
+  .cards,.espaco .cols{grid-template-columns:1fr 1fr}
+  .mosaico{grid-template-columns:1fr 1fr;grid-auto-rows:180px}
+  .itens{grid-template-columns:1fr}
+  .numeros .wrap{grid-template-columns:1fr 1fr}
+  .numeros div.n:nth-child(3){border-left:0}
+  .numeros div.n{border-top:1px solid rgba(255,255,255,.1)}
+  .historia figure .selo{right:12px}
+}
+@media (max-width:600px){
+  .cards,.espaco .cols{grid-template-columns:1fr}
+  .mosaico .largo{grid-column:span 2}
+  .hero h1{max-width:none}
+  .proto{font-size:.68rem}
+  .zap{right:14px;bottom:44px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<div class="proto" role="note"><b>Protótipo</b> — proposta de novo site por MC Consultoria em TI · não é o site oficial</div>
+
+<header class="topo" id="topo">
+  <nav class="wrap nav" aria-label="Principal">
+    <a href="#inicio" class="marca">
+      <img src="img/logo.jpg" alt="Logo do Quiosque Tia Lúcia" width="48" height="48">
+      <span>Quiosque Tia Lúcia<small>Camboinhas · Niterói</small></span>
+    </a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="menu" id="menu">
+      <li><a href="#historia">Nossa história</a></li>
+      <li><a href="#cardapio">Cardápio</a></li>
+      <li><a href="#cafe">Café da manhã</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="#local">Como chegar</a></li>
+      <li><a class="btn btn-zap" data-zap="reserva" href="#">Reservar</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <img class="bg" src="img/hero.jpg" alt="Deck do Quiosque Tia Lúcia ao pôr do sol, de frente para o mar de Camboinhas" fetchpriority="high">
+  <div class="wrap">
+    <p class="eyebrow">Praia de Camboinhas · Niterói · desde 1982</p>
+    <h1>Onde o Sol e a Lua <em>se encontram</em></h1>
+    <p>Pé na areia, peixe fresco, drinks gelados e o pôr do sol mais bonito de Niterói. Há mais de 40 anos o Quiosque Tia Lúcia é o cantinho especial de quem ama Camboinhas.</p>
+    <div class="acoes">
+      <a class="btn btn-zap" data-zap="reserva" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.6 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1.1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.6-.1 1.3Z"/></svg>Reservar mesa</a>
+      <a class="btn btn-claro" href="#cardapio">Ver cardápio</a>
+    </div>
+  </div>
+</section>
+
+<section class="numeros" aria-label="O Tia Lúcia em números">
+  <div class="wrap">
+    <div class="n"><strong>1982</strong><span>na areia de Camboinhas</span></div>
+    <div class="n"><strong>4,3★</strong><span>2.900+ avaliações no Google</span></div>
+    <div class="n"><strong>28 mil</strong><span>amigos no Instagram</span></div>
+    <div class="n"><strong>8h–19h</strong><span>todos os dias</span></div>
+  </div>
+</section>
+
+<section class="historia" id="historia">
+  <div class="wrap grid">
+    <figure class="rv">
+      <img src="img/placa.jpg" alt="Placa de madeira do Quiosque Tia Lúcia com a inscrição Desde 1982" loading="lazy">
+      <div class="selo"><small>desde</small><b>1982</b><small>Camboinhas</small></div>
+    </figure>
+    <div class="rv">
+      <p class="eyebrow">Nossa história</p>
+      <h2>Mais de quatro décadas de pé na areia</h2>
+      <p class="lead">O que começou como um quiosque de praia virou ponto de encontro de famílias, amigos e casais em Camboinhas. A receita continua a mesma: comida farta, atendimento de casa e uma vista que não se cansa de surpreender.</p>
+      <ol class="linha">
+        <li><b>1982</b><span>A Tia Lúcia abre o quiosque na Praia de Camboinhas.</span></li>
+        <li><b>Anos de casa cheia</b><span>Peixe frito, camarão e caldo de frutos do mar viram tradição de fim de semana.</span></li>
+        <li><b>Hoje</b><span>Restaurante, música ao vivo, área kids e um espaço para casamentos e festas à beira-mar.</span></li>
+        <li><b>Novembro de 2026</b><span>Estreia o café da manhã à beira-mar aos sábados e domingos, com a Nina Gourmet.</span></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="especialidades" id="especialidades">
+  <div class="wrap">
+    <p class="eyebrow rv">Especialidades da casa</p>
+    <h2 class="rv">Sabor de mar, do jeito da Tia</h2>
+    <div class="cards">
+      <article class="card rv">
+        <img src="img/peixe-frito.jpg" alt="Peixe frito crocante com batata frita, arroz e pirão" loading="lazy">
+        <div><h3>Peixes e frutos do mar</h3><p>Peixe frito completo, moqueca de robalo, bobó e camarão no coco. Pratos fartos, que servem de 2 a 3 pessoas.</p></div>
+      </article>
+      <article class="card rv">
+        <img src="img/petiscos.jpg" alt="Porção de camarão empanado servida na mesa com vista para o mar" loading="lazy">
+        <div><h3>Petiscos à beira-mar</h3><p>Camarão empanado, bolinho de bacalhau, lula à dorê, pastéis e o famoso gurjão de peixe para dividir.</p></div>
+      </article>
+      <article class="card rv">
+        <img src="img/drink.jpg" alt="Drink colorido com a Praia de Camboinhas ao fundo" loading="lazy">
+        <div><h3>Drinks e cerveja gelada</h3><p>Drinks da casa, cerveja trincando e coco gelado para acompanhar o pôr do sol na areia.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cafe" id="cafe">
+  <div class="wrap grid">
+    <div class="rv">
+      <p class="eyebrow">Novidade · a partir de 29/11</p>
+      <h2>Café da manhã à beira-mar</h2>
+      <p>Buffet livre com mais de 30 opções, música ao vivo com saxofone e o mar de Camboinhas na sua frente. Em parceria com a Nina Gourmet.</p>
+      <ul>
+        <li>Sábados e domingos, das 8h às 11h</li>
+        <li>Reservas para 8h ou 9h, com 15 minutos de tolerância</li>
+        <li>Crianças até 4 anos não pagam; de 5 a 10 anos pagam meia</li>
+        <li>Aniversariante: a cada 10 pagantes, uma cortesia</li>
+      </ul>
+      <p class="preco">R$ 54,90 <small>por pessoa · buffet livre</small></p>
+      <div class="acoes" style="margin-top:1.6rem;display:flex;gap:.8rem;flex-wrap:wrap">
+        <a class="btn btn-zap" href="https://linktr.ee/Ninagourmet" target="_blank" rel="noopener">Reservar café da manhã</a>
+      </div>
+      <p class="parceria">As reservas do café da manhã são feitas com a Nina Gourmet.</p>
+    </div>
+    <figure class="rv"><img src="img/manha.jpg" alt="Manhã de sol vista do deck do quiosque, com plantas e o mar ao fundo" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="eventos" id="eventos">
+  <div class="wrap">
+    <div class="topo-sec">
+      <div class="rv">
+        <p class="eyebrow">Casamentos · aniversários · eventos</p>
+        <h2>Sua festa com o mar como cenário</h2>
+        <p class="lead">Do chá revelação ao casamento ao pôr do sol: estrutura, buffet e decoração em um deck de frente para a praia.</p>
+        <div class="tipos"><span>Casamentos</span><span>Aniversários</span><span>Chá revelação</span><span>Bodas</span><span>Confraternizações</span></div>
+      </div>
+      <a class="btn btn-escuro rv" data-zap="evento" href="#">Pedir orçamento do evento</a>
+    </div>
+    <div class="mosaico">
+      <figure class="alto largo rv"><img src="img/evento-casamento.jpg" alt="Mesa de casamento decorada com flores vermelhas e vista para o mar" loading="lazy"><figcaption>Casamentos pé na areia</figcaption></figure>
+      <figure class="alto rv"><img src="img/evento-bolo.jpg" alt="Bolo de casamento branco cercado de flores brancas" loading="lazy"><figcaption>Cada detalhe pensado</figcaption></figure>
+      <figure class="rv"><img src="img/evento-aniversario.jpg" alt="Decoração de aniversário com balões vermelhos e vista para o mar" loading="lazy"><figcaption>Aniversários</figcaption></figure>
+      <figure class="rv"><img src="img/evento-buffet.jpg" alt="Mesa de buffet decorada com flores e plantas" loading="lazy"><figcaption>Buffet completo</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="espaco" id="espaco">
+  <div class="wrap">
+    <p class="eyebrow rv">O espaço</p>
+    <h2 class="rv">Programa para a família inteira</h2>
+    <div class="cols">
+      <div class="item rv"><img src="img/deck.jpg" alt="Deck coberto com mesas de frente para a praia de Camboinhas" loading="lazy"><h3>Deck com vista</h3><p>Mesas na sombra, de frente para o mar e para a Ilha do Pai e da Mãe.</p></div>
+      <div class="item rv"><img src="img/kids.jpg" alt="Área kids de madeira com escorregador e parede de escalada" loading="lazy"><h3>Área kids</h3><p>Brinquedos de madeira para a criançada enquanto os adultos aproveitam.</p></div>
+      <div class="item rv"><img src="img/musica.jpg" alt="Apresentação de música ao vivo no quiosque ao entardecer" loading="lazy"><h3>Música ao vivo</h3><p>Shows em datas especiais e nos fins de semana de temporada. Acompanhe a agenda no Instagram.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="pordosol" aria-label="Pôr do sol em Camboinhas">
+  <img src="img/por-do-sol.jpg" alt="Pôr do sol sobre o mar visto do Quiosque Tia Lúcia" loading="lazy">
+  <div class="wrap rv">
+    <blockquote>O dia termina aqui. E sempre termina bonito.</blockquote>
+    <p>Reserve pelo WhatsApp e garanta a melhor mesa para o fim de tarde.</p>
+  </div>
+</section>
+
+<section class="cardapio" id="cardapio">
+  <div class="wrap">
+    <p class="eyebrow rv">Cardápio</p>
+    <h2 class="rv">Para dividir com quem você gosta</h2>
+    <p class="lead rv">Os pratos servem de 2 a 3 pessoas. Busque pelo nome ou filtre por categoria.</p>
+    <div class="barra">
+      <label class="busca">
+        <span class="sr" style="position:absolute;left:-9999px">Buscar no cardápio</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Buscar: camarão, peixe, caipirinha…" autocomplete="off">
+      </label>
+    </div>
+    <div class="chips" id="chips" role="toolbar" aria-label="Categorias do cardápio"></div>
+    <div id="lista"></div>
+    <div class="notas">
+      <span>💳 Aceitamos Mastercard, Visa e Elo</span>
+      <span>🥡 Embalagem para viagem: R$ 2,00</span>
+      <span>🦀 Caranguejo indisponível de outubro a dezembro (defeso)</span>
+      <span>Taxa de serviço de 10% opcional</span>
+    </div>
+  </div>
+</section>
+
+<section class="local" id="local">
+  <div class="wrap grid">
+    <div class="rv">
+      <p class="eyebrow">Como chegar</p>
+      <h2>Na areia de Camboinhas, entre o mar e a lagoa</h2>
+      <div class="info">
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <p><b>Endereço</b><a href="https://www.google.com/maps/search/?api=1&query=Quiosque+Tia+Lucia+Camboinhas+Niter%C3%B3i" target="_blank" rel="noopener">Av. Beira-Mar, 13 – Praia de Camboinhas<br>Niterói – RJ, 24320-330</a></p></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          <p><b>Horário</b>Todos os dias, das 8h às 19h<br>Café da manhã: sábados e domingos, 8h às 11h</p></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>
+          <p><b>Telefone e WhatsApp</b><a href="tel:+5521995378586">(21) 99537-8586</a></p></div>
+        <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          <p><b>Instagram</b><a href="https://www.instagram.com/quiosque_tialucia/" target="_blank" rel="noopener">@quiosque_tialucia</a></p></div>
+      </div>
+      <div style="display:flex;gap:.8rem;flex-wrap:wrap">
+        <a class="btn btn-zap" data-zap="reserva" href="#">Falar no WhatsApp</a>
+        <a class="btn btn-claro" href="https://www.google.com/maps/dir/?api=1&destination=-22.9636485,-43.0507903" target="_blank" rel="noopener">Traçar rota</a>
+      </div>
+    </div>
+    <div class="mapa rv">
+      <iframe title="Mapa: Quiosque Tia Lúcia na Praia de Camboinhas" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=-22.9636485,-43.0507903&z=16&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap rv">
+    <p class="eyebrow" style="color:#fff">Te esperamos na areia</p>
+    <h2>Reserve sua mesa para o próximo pôr do sol</h2>
+    <p>Almoço em família, aniversário com os amigos ou aquele fim de tarde a dois. Chama a gente no WhatsApp.</p>
+    <div class="acoes">
+      <a class="btn btn-escuro" data-zap="reserva" href="#">Reservar pelo WhatsApp</a>
+      <a class="btn btn-claro" data-zap="evento" href="#">Orçamento de evento</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="#inicio" class="marca"><img src="img/logo.jpg" alt="" width="48" height="48"><span>Quiosque Tia Lúcia<small>Onde o Sol e a Lua se Encontram</small></span></a>
+    <p>© <span id="ano"></span> Quiosque Tia Lúcia · Praia de Camboinhas, Niterói – RJ</p>
+    <p>Site por <a href="https://mcconsultoriati.com.br" target="_blank" rel="noopener">MC Consultoria em TI</a></p>
+  </div>
+</footer>
+
+<div class="zap" id="zap">
+  <div class="painel" role="dialog" aria-label="Falar no WhatsApp">
+    <header><b>Quiosque Tia Lúcia</b>Como podemos ajudar?</header>
+    <a href="#" data-zap="reserva">Reservar uma mesa<span>Almoço ou pôr do sol</span></a>
+    <a href="#" data-zap="evento">Orçamento de evento<span>Casamento, aniversário, chá revelação</span></a>
+    <a href="#" data-zap="pedido">Fazer um pedido<span>Para retirar no quiosque</span></a>
+  </div>
+  <button aria-label="Abrir WhatsApp" aria-expanded="false"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.6 14.1c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1.1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.3 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.7 1.2 1.6 2 1.1 1 2 1.3 2.3 1.4.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 1c.3.1.5.2.5.3.1.1.1.6-.1 1.3Z"/></svg></button>
+</div>
+
+<script>
+const ZAP = '5521995378586';
+const MSG = {
+  reserva: 'Olá! Vi o site e gostaria de reservar uma mesa no Quiosque Tia Lúcia.',
+  evento: 'Olá! Vi o site e gostaria de um orçamento para um evento no Quiosque Tia Lúcia.',
+  pedido: 'Olá! Vi o site e gostaria de fazer um pedido.'
+};
+document.querySelectorAll('[data-zap]').forEach(a => {
+  a.href = 'https://wa.me/' + ZAP + '?text=' + encodeURIComponent(MSG[a.dataset.zap]);
+  a.target = '_blank'; a.rel = 'noopener';
+});
+
+const zap = document.getElementById('zap'), zb = zap.querySelector('button');
+zb.addEventListener('click', () => { const o = zap.classList.toggle('aberto'); zb.setAttribute('aria-expanded', o); });
+document.addEventListener('click', e => { if (!zap.contains(e.target)) { zap.classList.remove('aberto'); zb.setAttribute('aria-expanded', false); } });
+
+const topo = document.getElementById('topo');
+const onScroll = () => topo.classList.toggle('solido', scrollY > 40);
+addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+const burger = document.querySelector('.burger'), menu = document.getElementById('menu');
+burger.addEventListener('click', () => { const o = menu.classList.toggle('aberto'); burger.setAttribute('aria-expanded', o); topo.classList.add('solido'); });
+menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.remove('aberto'); burger.setAttribute('aria-expanded', false); }));
+
+document.getElementById('ano').textContent = new Date().getFullYear();
+
+/* Cardápio — fonte: cardápio impresso do quiosque (fotos no Google Maps, 2026) */
+const CARDAPIO = [
+  {cat:'Entradas', itens:[
+    ['Aipim frito','Porção',48],['Anéis de cebola','',49],['Batata frita','Porção',48],['Batata frita Tia Lúcia','Porção',68],
+    ['Bolinho de bacalhau','Porção com 8 unidades',93],['Bolinho de feijoada','Porção com 6 unidades',72],['Bolinho de tilápia','Porção com 12 unidades',45],
+    ['Calabresa com batata','Porção',96],['Caranguejo','Porção com 3 unidades · não servimos de outubro a dezembro (defeso)',60],['Carpaccio','',69],
+    ['Casquinha de siri','',35],['Coxinha de costela sem massa','Porção com 6 unidades',72],['Coxinha de frango com catupiry sem massa','Porção com 6 unidades',72],
+    ['Dadinho de tapioca','',69],['Pastel coquetel','Camarão, carne-seca, carne ou queijo · 9 unidades',69],['Pastel (unidade)','Frango com catupiry, camarão com catupiry ou carne',14],['Salaminho','',48]
+  ]},
+  {cat:'Petiscos', itens:[
+    ['Caldo de frutos do mar','',59],['Contra-filé fatiado','Com fritas ou aipim · porção',165],['Gurjão de frango','Porção',99],['Gurjão de peixe','Porção',119],
+    ['Lula à dorê','Porção',140],['Manjubinha','Porção',89],['Mexilhão ao molho ou vinagrete','Porção',79],['Camarão jangadeiro','4 unidades',45],
+    ['Carne-seca com aipim','Porção',130],['Camarão alho e azeite','Porção',140],['Camarão empanado','Porção',150],['Camarão crocante','Porção',145],
+    ['Combinado de gurjão de peixe com batata','',140],['Frango à passarinho','Porção',79],['Filé de sardinha','Porção com 6 unidades',59]
+  ]},
+  {cat:'Peixes e frutos do mar', nota:'servem 2 a 3 pessoas', itens:[
+    ['Arroz com frutos do mar','Acompanha batata frita',216],['Bobó de camarão','Acompanha arroz e batata frita',270],['Camarão no coco','Acompanha arroz e batata frita',265],
+    ['Filé de peixe à moda da casa','Arroz, pirão e batata frita',216],['Filé de peixe com molho de camarão','Arroz, pirão e batata frita',234],['Filé de peixe cozido','Arroz, pirão e batata frita',216],
+    ['Moqueca de robalo','Arroz, pirão e batata frita',265],['Peixe simples','Acompanha batata frita',180],['Peixe frito completo','Arroz, pirão e batata frita',210],
+    ['Posta de peixe frito completo','Arroz, pirão e batata frita',216]
+  ]},
+  {cat:'Carnes', nota:'servem 2 a 3 pessoas', itens:[
+    ['Contra-filé na chapa','500 g de contra-filé, linguiça, batata frita, arroz, vinagrete e farofa',249],
+    ['Picanha na chapa','500 g de picanha, linguiça, batata frita, arroz, vinagrete e farofa de ovo',298]
+  ]},
+  {cat:'Massas e risotos', itens:[
+    ['Espaguete de camarão','',145],['Espaguete de frutos do mar','',146],['Risoto de camarão','',216]
+  ]},
+  {cat:'Guarnições', itens:[
+    ['Arroz','',30],['Feijão','',30],['Molho de camarão','',40],['Pirão','',36],['Salada da casa','',42],['Farofa de ovo','',25],['Vinagrete','',15],['Porção de pão','',5]
+  ]},
+  {cat:'Bebidas', itens:[
+    ['Água com gás','',8],['Água sem gás','',7],['Cerveja 600 ml','Amstel, Eisenbahn, Estrella Galicia, Teresópolis ou Petra',19.5],['Cerveja 600 ml Heineken','',23],
+    ['Cerveja long neck Heineken','',18],['Coco gelado','',14],['Guaraviton','',12],['Guaravita','',6],['Jarra de suco natural','Consulte os sabores',45],
+    ['Suco natural (copo)','Consulte os sabores',19],['Suco em lata','',14],['Refrigerante lata','',12],['Red Bull','',24],['Smirnoff Ice','',19.5],['Shot de limão','',3.6]
+  ]}
+];
+
+const brl = v => v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+let catAtiva = 'Tudo';
+const chips = document.getElementById('chips'), lista = document.getElementById('lista'), q = document.getElementById('q');
+
+chips.innerHTML = ['Tudo', ...CARDAPIO.map(c => c.cat)].map(c => `<button class="chip" type="button" aria-pressed="${c==='Tudo'}" data-cat="${c}">${c}</button>`).join('');
+chips.addEventListener('click', e => {
+  const b = e.target.closest('.chip'); if (!b) return;
+  catAtiva = b.dataset.cat;
+  chips.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c === b));
+  render();
+});
+q.addEventListener('input', render);
+
+function render(){
+  const termo = norm(q.value.trim());
+  const html = CARDAPIO
+    .filter(c => catAtiva === 'Tudo' || c.cat === catAtiva)
+    .map(c => {
+      const its = c.itens.filter(([n,d]) => !termo || norm(n + ' ' + d + ' ' + c.cat).includes(termo));
+      if (!its.length) return '';
+      return `<div class="cat"><h3>${c.cat}${c.nota ? `<small>${c.nota}</small>` : ''}</h3><div class="itens">` +
+        its.map(([n,d,p]) => `<div class="it"><div><b>${n}</b>${d ? `<small>${d}</small>` : ''}</div><span class="p">${brl(p)}</span></div>`).join('') +
+        `</div></div>`;
+    }).join('');
+  lista.innerHTML = html || `<p class="vazio">Nada encontrado para “${q.value.replace(/[<>&"]/g,'')}”. Tente outra palavra ou pergunte no WhatsApp.</p>`;
+}
+render();
+
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); io.unobserve(e.target); } }), {threshold:.12});
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
